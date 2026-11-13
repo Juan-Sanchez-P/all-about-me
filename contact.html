@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Jhon Mark</title>
+
+    <!-- General website styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Contact page styling -->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">JM.</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="journey.html">Journey</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="contact-container">
+
+        <div class="contact-heading">
+            <p class="section-label">LET'S CONNECT</p>
+            <h1>Get in <span>touch.</span></h1>
+            <p>
+                Have a question, an idea, or just want to say hello?
+                Feel free to send me a message.
+            </p>
+        </div>
+
+        <form id="contact-form">
+
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    placeholder="Write your message..."
+                    rows="5"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+
+            <p id="form-status"></p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jhon Mark. Built with curiosity.</p>
+    </footer>
+
+    <!-- Contact page JavaScript -->
+    <script src="js/contact.js"></script>
+
+</body>
+</html>
